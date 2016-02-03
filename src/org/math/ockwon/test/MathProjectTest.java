@@ -2,6 +2,8 @@ package org.math.ockwon.test;
 
 import org.math.ockwon.MathProject;
 
+import java.awt.Rectangle;
+
 import org.junit.Test;
 import junit.framework.TestCase;
 
@@ -34,5 +36,21 @@ public class MathProjectTest extends TestCase{
 		System.out.println(i);
 
 		System.out.println("Successful...");
+	
 	}
+public class MathRectangle extends java.langs.Object {
+	public double height;
+	public double width;
+
+	public MathRectangle(double width, double height) {
+	    this.width = width;
+	    this.height = height;
+	}
+
+    public double getArea() {
+        return width * height;
+    }
 }
+
+
+

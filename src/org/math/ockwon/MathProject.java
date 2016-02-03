@@ -12,4 +12,20 @@ public class MathProject {
 		int i = r.nextInt(max-min);
 		return i + min;
 	}
+	
+	public class MathRectangle extends java.langs.Object {
+		public double height;
+		public double width;
+
+		public MathRectangle(double width, double height) {
+		    this.width = width;
+		    this.height = height;
+		}
+
+	    public double getArea() {
+	        return width * height;
+	    }
+	}
+
 }
+
